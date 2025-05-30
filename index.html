@@ -1,40 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>buy car</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-</head><body>
-    <div class="col -small-6">
-        <div class="card">
-            <div class="card-header">
-                <h1>Buy Car</h1>
-            </div>
-            <p>buy car <img style="border-radius: 50%;width:100px;" src="data:image/jpeg;base64,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" alt=""></p>
-            <div class="card-body">
-                <form id="rollForm">
-                    <p>buy</p>
-                    <div class="form-group">
-                        <label for="diceInput">Enter price 10M$:</label>
-                        <input type="text" class="form-control x" id="diceInput" placeholder="card name">
-                        <input type="text" class="form-control y" id="diceInput" placeholder="card number">
-                        <input type="text" class="form-control l" id="diceInput" placeholder="card date">
-                        <div class="btn btn-primary" onclick="f1()">buy</div>
-    </div>
-<div class="b" style="color: blue;width:20%;"></div>
-    <script src="js/popper.min.js"></script>
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script>
-        function f1() {
-            b = document.querySelector(".b");
-            x = document.querySelector(".x").value;
-            y = document.querySelector(".y").value;
-            l = document.querySelector(".l").value;
-            b.innerHTML = "You have successfully buy the item with card: " + "   " +x+"   "+y+"   "+l + " and price 10M$";
-            
+    <title>Game On Galaxy - قناتك للألعاب</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom font for better aesthetics */
+        body {
+            font-family: 'Inter', sans-serif;
         }
+        /* Custom scrollbar for a sleek look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1a202c; /* Dark background for track */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4a5568; /* Greyish thumb */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6b7280; /* Lighter grey on hover */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col">
+
+    <header class="bg-gray-800 shadow-lg py-4 px-6 md:px-12 rounded-b-xl">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="#" class="text-4xl font-extrabold text-blue-400 hover:text-blue-300 transition duration-300 ease-in-out transform hover:scale-105 mb-4 md:mb-0">
+                Game On Galaxy
+            </a>
+
+            <nav>
+                <ul class="flex flex-wrap justify-center space-x-6 md:space-x-8 text-lg">
+                    <li>
+                        <a href="#home" class="text-gray-200 hover:text-blue-400 transition duration-300 ease-in-out relative group">
+                            الرئيسية
+                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#videos" class="text-gray-200 hover:text-blue-400 transition duration-300 ease-in-out relative group">
+                            الفيديوهات
+                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="text-gray-200 hover:text-blue-400 transition duration-300 ease-in-out relative group">
+                            عنا
+                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="text-gray-200 hover:text-blue-400 transition duration-300 ease-in-out relative group">
+                            اتصل بنا
+                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto py-8 px-4 md:px-8">
+
+        <section id="home" class="bg-gradient-to-r from-purple-700 to-blue-600 p-8 md:p-12 rounded-xl shadow-2xl text-center mb-12 transform hover:scale-105 transition duration-500 ease-in-out">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-lg">
+                انغمس في عالم الألعاب مع <span class="text-yellow-300">Game On Galaxy</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
+                استكشف أحدث الألعاب، المراجعات، النصائح، والمزيد. انضم إلى مجتمعنا من عشاق الألعاب!
+            </p>
+            <a href="https://www.youtube.com/@GameOnGalaxy-g4o/" target="_blank" rel="noopener noreferrer"
+               class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg transform hover:scale-110 transition duration-300 ease-in-out animate-pulse">
+                <i class="fab fa-youtube mr-3"></i> اشترك الآن على يوتيوب!
+            </a>
+        </section>
+
+        <section id="videos" class="mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 text-blue-400">
+                <i class="fas fa-video mr-3"></i> فيديوهات مميزة
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out group">
+                    <div class="relative w-full pb-[56.25%]"> <iframe class="absolute top-0 left-0 w-full h-full rounded-t-xl"
+                                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-blue-300 mb-3 group-hover:text-blue-200 transition duration-300">
+                            مراجعة لعبة رائعة!
+                        </h3>
+                        <p class="text-gray-400 text-base mb-4">
+                            نظرة عميقة على أحدث إصدار من اللعبة، مع تحليل شامل للميزات والرسومات وطريقة اللعب.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"
+                           class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-5 rounded-lg text-sm shadow-md transition duration-300">
+                            شاهد الآن
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out group">
+                    <div class="relative w-full pb-[56.25%]"> <iframe class="absolute top-0 left-0 w-full h-full rounded-t-xl"
+                                src="https://www.youtube.com/watch?v=Lis6dsoJJQc&t=7s"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen onerror="this.src='https://placehold.co/560x315/333/FFF?text=Video+Unavailable';"></iframe>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-blue-300 mb-3 group-hover:text-blue-200 transition duration-300">
+                            أفضل 10 نصائح وحيل
+                        </h3>
+                        <p class="text-gray-400 text-base mb-4">
+                            ارفع مستوى لعبك مع هذه النصائح والحيل التي ستغير طريقة لعبك للأبد.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=someothervideo" target="_blank" rel="noopener noreferrer"
+                           class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-5 rounded-lg text-sm shadow-md transition duration-300">
+                            شاهد الآن
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out group">
+                    <div class="relative w-full pb-[56.25%]"> <iframe class="absolute top-0 left-0 w-full h-full rounded-t-xl"
+                                src="https://www.youtube.com/watch?v=DNzZq2L-AcU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen onerror="this.src='https://placehold.co/560x315/333/FFF?text=Video+Unavailable';"></iframe>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-blue-300 mb-3 group-hover:text-blue-200 transition duration-300">
+                            تحدي الألعاب المجنون!
+                        </h3>
+                        <p class="text-gray-400 text-base mb-4">
+                            شاهدنا نخوض تحديات ألعاب مضحكة ومجنونة. هل يمكننا الفوز؟
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=wHScqJDRn_o" target="_blank" rel="noopener noreferrer"
+                           class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-5 rounded-lg text-sm shadow-md transition duration-300">
+                            شاهد الآن
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="bg-gray-800 p-8 md:p-10 rounded-xl shadow-xl mb-12">
+            <h2 class="text-4xl font-bold text-center mb-8 text-blue-400">
+                <i class="fas fa-info-circle mr-3"></i> من نحن
+            </h2>
+            <div class="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                <p class="mb-4">
+                    مرحباً بكم في Game On Galaxy، وجهتكم الأولى لكل ما يتعلق بعالم الألعاب! نحن فريق من عشاق الألعاب المتحمسين الذين يشاركونكم شغفهم بأحدث وأروع الألعاب. سواء كنتم تبحثون عن مراجعات عميقة، نصائح وحيل احترافية، أو مجرد الترفيه بمشاهدة تحديات الألعاب المضحكة، فقد وصلتم إلى المكان الصحيح.
+                </p>
+                <p class="mb-4">
+                    هدفنا هو بناء مجتمع نابض بالحياة حيث يمكن للاعبين من جميع المستويات التواصل ومشاركة تجاربهم. نؤمن بأن الألعاب ليست مجرد هواية، بل هي وسيلة للتواصل، التعلم، والاستمتاع.
+                </p>
+                <p>
+                    انضموا إلينا في هذه الرحلة الملحمية عبر مجرة الألعاب، ودعونا نلعب معاً!
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-gray-800 p-8 md:p-10 rounded-xl shadow-xl mb-12">
+            <h2 class="text-4xl font-bold text-center mb-8 text-blue-400">
+                <i class="fas fa-envelope mr-3"></i> اتصل بنا
+            </h2>
+            <div class="max-w-xl mx-auto text-center">
+                <p class="text-lg text-gray-300 mb-6">
+                    للاستفسارات التجارية، التعاون، أو مجرد إلقاء التحية، لا تتردد في التواصل معنا!
+                </p>
+                <form class="space-y-6">
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="اسمك الكامل"
+                               class="w-full p-4 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-100 placeholder-gray-400 transition duration-300"
+                               required>
+                    </div>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="بريدك الإلكتروني"
+                               class="w-full p-4 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-100 placeholder-gray-400 transition duration-300"
+                               required>
+                    </div>
+                    <div>
+                        <textarea id="message" name="message" rows="6" placeholder="رسالتك"
+                                  class="w-full p-4 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-100 placeholder-gray-400 resize-y transition duration-300"
+                                  required></textarea>
+                    </div>
+                    <button type="submit"
+                            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-lg text-xl shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+                        إرسال الرسالة
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 py-6 px-4 md:px-8 rounded-t-xl mt-auto">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+            <p class="mb-4 md:mb-0">&copy; 2024 Game On Galaxy. جميع الحقوق محفوظة.</p>
+            <div class="flex space-x-6">
+                <a href="https://www.youtube.com/@GameOnGalaxy-g4o/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400 transition duration-300">
+                    <i class="fab fa-youtube text-2xl"></i>
+                </a>
+                <a href="#" class="hover:text-blue-400 transition duration-300">
+                    <i class="fab fa-twitter text-2xl"></i>
+                </a>
+                <a href="#" class="hover:text-blue-400 transition duration-300">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+                <a href="#" class="hover:text-blue-400 transition duration-300">
+                    <i class="fab fa-discord text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for smooth scrolling (optional, but enhances UX)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Placeholder for YouTube video embed fallback
+        // This script is not strictly necessary for basic functionality,
+        // but it demonstrates how to handle potential video embed issues
+        // by replacing an unavailable iframe with a placeholder image.
+        document.addEventListener('DOMContentLoaded', () => {
+            const iframes = document.querySelectorAll('iframe');
+            iframes.forEach(iframe => {
+                iframe.onerror = function() {
+                    console.error('Failed to load iframe:', iframe.src);
+                    // Replace iframe with a placeholder image if it fails to load
+                    const parentDiv = iframe.parentElement;
+                    const placeholderImg = document.createElement('img');
+                    placeholderImg.src = 'https://placehold.co/560x315/333/FFF?text=Video+Unavailable';
+                    placeholderImg.alt = 'Video Unavailable';
+                    placeholderImg.classList.add('absolute', 'top-0', 'left-0', 'w-full', 'h-full', 'rounded-t-xl', 'object-cover');
+                    parentDiv.replaceChild(placeholderImg, iframe);
+                };
+            });
+        });
     </script>
 </body>
 </html>
